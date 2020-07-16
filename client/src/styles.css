@@ -1,0 +1,31 @@
+.quote-area {
+  border-radius: 7px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  min-height: 200px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.align-me {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.input-style {
+  border-radius: 7px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  border: 0px solid;
+  cursor: text;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  box-shadow: 0 1px 3px rgb(0, 0, 0);
+}
+
+.router{
+  display: block;
+  padding: 10rem;
+}
